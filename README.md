@@ -1,4 +1,4 @@
-# 🚀 Portfolio ANDY King - Next.js
+# 🚀 Mon Portfolio - Next.js
 
 Portfolio moderne et immersif développé avec **Next.js**, **TailwindCSS** et **Three.js**, offrant une expérience visuelle inspirée des animations d'OpenAI.
 
@@ -26,36 +26,6 @@ Portfolio moderne et immersif développé avec **Next.js**, **TailwindCSS** et *
 - **Three.js** + **React Three Fiber** + **Drei** - Rendu 3D et shaders
 - **Hooks personnalisés** - Détection d'appareil et responsive
 
-## 📦 Installation
-
-### Prérequis
-
-- Node.js 18+ et npm
-
-### Étapes
-
-```bash
-# Cloner le repository
-git clone https://github.com/MEVENGUE/mevengue-siteweb.com.git
-cd mevengue-siteweb.com
-
-# Installer les dépendances
-npm install
-
-# Lancer le serveur de développement
-npm run dev
-```
-
-Le site sera accessible sur [http://localhost:3000](http://localhost:3000)
-
-### Scripts disponibles
-
-```bash
-npm run dev      # Développement (port 3000)
-npm run build    # Build de production
-npm start        # Démarrer en production
-npm run lint     # Linter le code
-```
 
 ## 📱 Responsive Design
 
@@ -102,71 +72,6 @@ src/
     └── responsive.ts       # Fonctions responsive
 ```
 
-## 🎯 Personnalisation
-
-### Modifier les projets
-
-Éditez `src/data/projects.ts` :
-
-```typescript
-export const projects: Project[] = [
-  {
-    slug: "mon-projet",
-    title: "Mon Projet",
-    year: 2025,
-    tags: ["React", "TypeScript"],
-    short: "Description du projet",
-    github: "https://github.com/...",
-    demo: "https://demo.com"
-  }
-];
-```
-
-### Modifier les démos
-
-Éditez `src/data/labDemos.ts` :
-
-```typescript
-export const labDemos: LabDemo[] = [
-  {
-    slug: "ma-demo",
-    title: "Ma Démo",
-    description: "Description",
-    type: "type-demo",
-    link: "https://..."
-  }
-];
-```
-
-### Personnaliser les couleurs
-
-Modifiez `tailwind.config.js` :
-
-```javascript
-theme: {
-  extend: {
-    colors: {
-      // Vos couleurs personnalisées
-    }
-  }
-}
-```
-
-## 🌐 Déploiement
-
-### Vercel (Recommandé)
-
-1. Connectez votre repository GitHub à [Vercel](https://vercel.com)
-2. Vercel détectera automatiquement Next.js
-3. Le déploiement se fera automatiquement à chaque push
-
-### Netlify
-
-```bash
-npm run build
-# Déployer le dossier .next
-```
-
 ### GitHub Pages
 
 Requiert une configuration supplémentaire pour Next.js. Voir la [documentation Next.js](https://nextjs.org/docs/deployment#github-pages).
@@ -187,7 +92,6 @@ Le composant Hero3D utilise un shader GLSL personnalisé pour créer une animati
 
 - GitHub: [@MEVENGUE](https://github.com/MEVENGUE)
 - Repository: [mevengue-siteweb.com](https://github.com/MEVENGUE/mevengue-siteweb.com)
-- Portfolio: [En ligne](https://votre-portfolio.com)
 
 ## 🙏 Remerciements
 
