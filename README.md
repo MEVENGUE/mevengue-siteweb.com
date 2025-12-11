@@ -60,7 +60,7 @@ Le composant Hero3D utilise un shader GLSL personnalisé pour créer une animati
 **FRANCK MEVENGUE**
 
 - GitHub: [@MEVENGUE](https://github.com/MEVENGUE)
-- Repository: [mevengue-siteweb.com](https://mevenguefranck-siteweb.vercel.app/)
+- Repository: [mevenguefranck-siteweb.com](https://mevenguefranck-siteweb.vercel.app/)
 
 ## 🙏 Remerciements
 
