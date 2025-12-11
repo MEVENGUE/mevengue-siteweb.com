@@ -41,37 +41,6 @@ Le portfolio s'adapte automatiquement selon :
 - `useResponsive()` : Gère les valeurs responsive selon l'appareil
 - `ResponsiveWrapper` : Composant pour afficher du contenu différent par appareil
 
-## 🎨 Structure du projet
-
-```
-src/
-├── app/                    # Pages Next.js (App Router)
-│   ├── page.tsx            # Page d'accueil avec Hero 3D
-│   ├── projects/           # Page projets
-│   │   └── page.tsx
-│   ├── lab/                # Page lab
-│   │   └── page.tsx
-│   ├── about/              # Page à propos
-│   │   └── page.tsx
-│   ├── contact/            # Page contact
-│   │   └── page.tsx
-│   ├── layout.tsx          # Layout principal
-│   └── globals.css         # Styles globaux
-├── components/             # Composants React
-│   ├── Hero3D.tsx          # Hero 3D avec shader GLSL
-│   ├── Navbar.tsx          # Navigation responsive
-│   ├── Footer.tsx          # Footer
-│   └── ResponsiveWrapper.tsx
-├── hooks/                  # Hooks personnalisés
-│   ├── useDevice.ts        # Détection d'appareil
-│   └── useResponsive.ts    # Gestion responsive
-├── data/                   # Données statiques
-│   ├── projects.ts         # Liste des projets
-│   └── labDemos.ts         # Liste des démos
-└── utils/                  # Utilitaires
-    └── responsive.ts       # Fonctions responsive
-```
-
 ### GitHub Pages
 
 Requiert une configuration supplémentaire pour Next.js. Voir la [documentation Next.js](https://nextjs.org/docs/deployment#github-pages).
